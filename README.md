@@ -6,10 +6,10 @@
  <img src="https://github.com/williadorosario/Projeto-Order-summary-card/blob/main/assets/image/Projeto-Card.png?raw=true"/>
  <br>
  <br>
- <h3>Image </h3>
+ <h3>Image Mobile</h3>
  <br>
  <h3 align="center">
- <img src="" />
+ <img src="https://github.com/williadorosario/Projeto-Order-summary-card/blob/main/assets/image/Progeto-Card-Mobile.png?raw=true" />
  </h3>
  <br>
  <br>
@@ -25,6 +25,9 @@
 <br>
 <h2>Desenvolvimento contínuo..</h2>
 <br>
-Estou me aperfeiçoando em HTML e CSS a cada protejos para poder a cada dia desenvolver um bom trabalho.
+Este projeto é do Front end Mentor para <b>desenvolvimento</b> e pratica.
+<br>
+projeto utilizado <b>HTML</b> para criação da estrutura e <b>CSS</b> para estilos, nesse projeto fui desafiador pois utilizei o display flex para posicionar os elementos em suas posições. também procurei deixar responsivo para para telas mobile.
+
 <br>
 este projeto me ajudou muito a desenvolver habilidades em responsividades.

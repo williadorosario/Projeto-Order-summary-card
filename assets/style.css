@@ -1,0 +1,366 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Red Hat Display", sans-serif;
+}
+
+body {
+    background: hsl(225, 100%, 94%) url("./image/pattern-background-desktop.svg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.container {
+    width: 420px;
+    height: 620px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 60px auto;
+    border-radius: 20px;
+    background-color: hsl(225, 100%, 98%);
+    box-shadow: inset 0 0 20px gray;
+}
+
+.logo-menina {
+    border-radius: 20px 20px 0 0;
+    width: 420px;
+}
+
+.div-oder {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: auto;
+    margin-right: 20px;
+}
+
+h1 {
+    margin: 30px 0 0 10px;
+    font-weight: 900;
+    font-size: 26px;
+}
+
+.paragrafo-oder {
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+    margin: 10px 0 40px 25px;
+    line-height: 26px;
+}
+
+.section {
+    padding: auto;
+    width: 330px;
+    height: 75px;
+    border-radius: 15px;
+    background: hsl(225, 100%, 96%);
+    display: flex;
+}
+
+.planos {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.Annual-Plan {
+    font-weight: 900;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.logo-nota {
+    margin: 15px 0 0 15px;
+    height: 50px;
+}
+
+.valor-anual {
+    color: hsl(224, 23%, 55%);
+    margin-left: 5px;
+    display: flex;
+}
+
+.link-change {
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+    font-size: 15px;
+}
+
+.link-change:hover {
+    opacity: calc(0.5);
+    text-decoration: underline;
+
+}
+
+.payment {
+    margin-top: 30px;
+    width: 330px;
+    height: 50px;
+    font-size: 15px;
+    font-weight: 500;
+    background: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 98%);
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0 10px 20px hsl(224, 37%, 74%);
+    border: none;
+
+}
+
+.payment:hover {
+    opacity: calc(0.7);
+
+}
+
+.cancel {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    font-size: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+    opacity: calc(0.6);
+
+}
+
+.cancel:hover {
+    opacity: calc(0.6);
+    text-decoration: underline;
+}
+
+@media screen and (max-width:416px) {
+
+
+    body {
+        background: hsl(225, 100%, 94%) url("./image/pattern-background-mobile.svg");
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100%;
+    }
+
+
+
+    .container, .logo-menina {
+        width: 330px;
+
+    }
+
+    .section {
+        display: flex;
+        padding: auto;
+        width: 280px;
+        height: 75px;
+        border-radius: 15px;
+        background: hsl(225, 100%, 96%);
+    }
+
+    .payment {
+        width: 260px;
+        height: 50px;
+        margin-top: 30px;
+        font-weight: 700;
+        background: hsl(245, 75%, 52%);
+        color: hsl(225, 100%, 98%);
+        border-radius: 15px;
+        cursor: pointer;
+        box-shadow: 0 10px 20px hsl(224, 37%, 74%);
+        border: none;
+
+    }
+
+    .payment:hover {
+        opacity: calc(0.7);
+    }
+
+    .link-change {
+
+        display: flex;
+        justify-content: center;
+        margin-left: 2px;
+        font-size: 1px;
+        cursor: pointer;
+    }
+
+    .paragrafo-oder {
+        font-size: 15px;
+        color: hsl(224, 23%, 55%);
+        margin: 15px 0 40px 25px;
+        line-height: 27px;
+        padding: auto;
+    }
+
+    .cancel {
+        margin-top: 25px;
+        font-size: 18px;
+        color: hsl(223, 7%, 48%);
+        font-weight: 900;
+        cursor: pointer;
+        opacity: calc(0.6);
+
+    }
+
+}
+
+@media screen and (max-width:300px) {
+
+
+    body {
+        background: hsl(225, 100%, 94%) url("./image/pattern-background-mobile.svg");
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100%;
+    }
+
+
+
+    .container, .logo-menina {
+        width: 260px;
+        height: 100%;
+
+    }
+
+    .section {
+        display: flex;
+        padding: auto;
+        width: 230px;
+        height: 55px;
+        border-radius: 15px;
+        background: hsl(225, 100%, 96%);
+    }
+
+    .payment {
+        width: 230px;
+        height: 50px;
+        margin-top: 30px;
+        font-weight: 700;
+        background: hsl(245, 75%, 52%);
+        color: hsl(225, 100%, 98%);
+        border-radius: 15px;
+        cursor: pointer;
+        box-shadow: 0 10px 20px hsl(224, 37%, 74%);
+        border: none;
+
+    }
+
+    .payment:hover {
+        opacity: calc(0.7);
+    }
+
+    .link-change {
+
+        display: flex;
+        justify-content: center;
+        margin-left: 2px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .cancel {
+        margin-top: 25px;
+        font-size: 18px;
+        color: hsl(223, 7%, 48%);
+        font-weight: 900;
+        cursor: pointer;
+        opacity: calc(0.6);
+
+    }
+
+    .logo-nota {
+        margin: 10px 0 0 15px;
+        height: 40px;
+    }
+
+    .div-oder {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: auto;
+        width: 100%;
+        margin-right: 20px;
+    }
+
+
+    .link-change {
+
+        display: flex;
+        justify-content: center;
+
+        font-size: 12px;
+        cursor: pointer;
+
+
+    }
+
+    .Annual-Plan {
+        font-weight: 900;
+        margin-right: 14px;
+        font-size: 13px;
+    }
+
+    h1 {
+        margin: 30px 0 0 10px;
+        font-weight: 900;
+        font-size: 20px;
+    }
+
+    .paragrafo-oder {
+        font-size: 12px;
+        color: hsl(224, 23%, 55%);
+        margin: 10px 0 40px 20px;
+        line-height: 22px;
+        padding: auto;
+    }
+
+
+    .valor-anual {
+        color: hsl(224, 23%, 55%);
+        margin-left: 2px;
+        display: flex;
+        font-size: 15px;
+    }
+
+
+    .payment {
+        width: 230px;
+        height: 35px;
+        margin-top: 25px;
+        font-weight: 600;
+        background: hsl(245, 75%, 52%);
+        color: hsl(225, 100%, 98%);
+        border-radius: 15px;
+        cursor: pointer;
+        box-shadow: 0 10px 20px hsl(224, 37%, 74%);
+        border: none;
+    }
+
+    .payment:hover {
+        opacity: calc(0.7);
+    }
+
+
+    .cancel {
+        margin: 25px 0;
+        font-size: 17px;
+        color: hsl(223, 7%, 48%);
+        font-weight: 900;
+        cursor: pointer;
+        opacity: calc(0.6);
+        padding: auto;
+
+    }
+
+}

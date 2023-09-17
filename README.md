@@ -3,10 +3,10 @@
  <br>
  <br>
  <h3>Image  background Desktop</h3>
- <img src="https://raw.githubusercontent.com/williadorosario/Projeto-Order-summary-card/e3f4cf12fcaea113835776173d37bebd3429a1c3/assets/image/pattern-background-desktop.svg"/>
+ <img src=""/>
  <br>
  <br>
- <h2>Image Mobile</h2>
+ <h3>Image </h3>
  <br>
  <h3 align="center">
  <img src="" />

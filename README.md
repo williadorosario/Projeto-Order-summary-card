@@ -2,11 +2,11 @@
  <h1 align="center"> Projeto-Order-summary-card</h1>
  <br>
  <br>
- <h2>Image Desktop</h2>
- <img src="."/>
+ <h3>Image  background Desktop</h3>
+ <img src=""/>
  <br>
  <br>
- <h2>Image Mobile</h2>
+ <h3>Image </h3>
  <br>
  <h3 align="center">
  <img src="" />

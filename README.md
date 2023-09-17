@@ -3,7 +3,7 @@
  <br>
  <br>
  <h2>Image Desktop</h2>
- <img src="."/>
+ <img src="/"/>
  <br>
  <br>
  <h2>Image Mobile</h2>

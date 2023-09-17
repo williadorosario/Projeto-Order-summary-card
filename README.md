@@ -2,8 +2,8 @@
  <h1 align="center"> Projeto-Order-summary-card</h1>
  <br>
  <br>
- <h2>Image Desktop</h2>
- <img src="/"/>
+ <h3>Image  background Desktop</h3>
+ <img src="https://raw.githubusercontent.com/williadorosario/Projeto-Order-summary-card/e3f4cf12fcaea113835776173d37bebd3429a1c3/assets/image/pattern-background-desktop.svg"/>
  <br>
  <br>
  <h2>Image Mobile</h2>
